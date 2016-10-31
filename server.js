@@ -19,8 +19,9 @@ function pnow(prom, param) {
 	}
 	
 }
-
+// from the browser
 // http://localhost:9200/users/user/_search?query=baby.doe
+
 
 app.get('/create_user_index', pnow(user.createUserIndex));
 
